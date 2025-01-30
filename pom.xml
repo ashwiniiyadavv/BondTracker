@@ -32,11 +32,10 @@
 
         <!-- H2 Database dependency -->
       <dependency>
-    <groupId>com.h2database</groupId>
-    <artifactId>h2</artifactId>
-    <version>1.4.200</version> <!-- Make sure the version is correct -->
-    <scope>runtime</scope>
-</dependency>
+        <groupId>com.h2database</groupId>
+        <artifactId>h2</artifactId>
+        <scope>runtime</scope>
+    </dependency>
 
 
       <!-- Remove these from your POM -->
