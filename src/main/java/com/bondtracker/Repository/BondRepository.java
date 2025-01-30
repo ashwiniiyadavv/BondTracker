@@ -1,4 +1,4 @@
-package com.bondtracker.repository;
+package com.bondtracker.Repository;
 
 import com.bondtracker.model.Bond;
 import org.springframework.data.jpa.repository.JpaRepository;
