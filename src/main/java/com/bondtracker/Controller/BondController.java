@@ -13,6 +13,7 @@ public class BondController {
 
     @Autowired
     private BondService bondService;
+	@Autowired
 	private BondRepository bondRepository;
     @GetMapping("/customer/{customerId}")
     public List<Bond> getActiveBondsForCustomer(@PathVariable String customerId) {
